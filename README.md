@@ -49,7 +49,9 @@ git clone <url>
 ```
 
 ## Запомни
+
 ** В случае пожара**
+
 1. git add --all
 2. git commit -m'<messange>
 3. git push

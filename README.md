@@ -40,3 +40,16 @@ git clone <url>
 2. git commit -m'<messange>
 3. git push
 PROFIT!!!
+
+## Навигация и статусы
+
+
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit -m'<messange>'"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
